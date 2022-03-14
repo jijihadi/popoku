@@ -1,0 +1,26 @@
+ERROR - 2021-11-09 05:17:07 --> mysqli_sql_exception: Unknown column 'b.id_kurir' in 'field list' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `a`.`id_...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_user.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(45): App\Models\Model_user->get_user_kurir()
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->add()
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-09 05:17:14 --> mysqli_sql_exception: Unknown column 'b.id_kurir' in 'field list' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `a`.`id_...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_user.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(45): App\Models\Model_user->get_user_kurir()
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->add()
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

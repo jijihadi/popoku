@@ -1,0 +1,100 @@
+CRITICAL - 2021-02-16 01:30:05 --> Invalid file: admin/v_donasi/donasi_list.php
+#0 C:\xampp7\htdocs\popoku\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/v_donasi/...')
+#1 C:\xampp7\htdocs\popoku\system\Common.php(1217): CodeIgniter\View\View->render('admin/v_donasi/...', Array, true)
+#2 C:\xampp7\htdocs\popoku\app\Controllers\Donasi.php(18): view('admin/v_donasi/...', Array)
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Donasi->index()
+#4 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Donasi))
+#5 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-16 01:53:29 --> Invalid argument supplied for foreach()
+#0 C:\xampp7\htdocs\popoku\app\Views\admin\v_donasi\donasi_form.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp7\\htdoc...', 76, Array)
+#1 C:\xampp7\htdocs\popoku\system\View\View.php(220): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\popoku\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\popoku\system\Common.php(1217): CodeIgniter\View\View->render('admin/v_donasi/...', Array, true)
+#4 C:\xampp7\htdocs\popoku\app\Controllers\Donasi.php(30): view('admin/v_donasi/...', Array)
+#5 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Donasi->add()
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Donasi))
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-16 02:04:06 --> You must set the database table to be used with your query.
+#0 C:\xampp7\htdocs\popoku\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp7\htdocs\popoku\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\xampp7\htdocs\popoku\app\Controllers\Donasi.php(40): CodeIgniter\Model->__call('get_user_kurir', Array)
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Donasi->edit('1')
+#4 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Donasi))
+#5 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-16 02:17:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp7\htdocs\popoku\app\Controllers\Donasi.php(40): App\Models\Model_user->get_user_kurir()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Donasi->edit('1')
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Donasi))
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 02:18:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp7\htdocs\popoku\app\Controllers\Donasi.php(40): App\Models\Model_user->get_user_kurir()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Donasi->edit('1')
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Donasi))
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 02:18:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Donasi->edit('1')
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Donasi))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 02:18:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Donasi->edit('1')
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Donasi))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-16 02:19:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Donasi->edit('1')
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Donasi))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-02-16 02:22:05 --> mysqli_sql_exception: Unknown column 'waktu_donasi' in 'field list' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_donasi.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Donasi.php(62): App\Models\Model_donasi->save_donasi(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Donasi->save()
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Donasi))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-16 02:24:27 --> mysqli_sql_exception: Column 'jumlah_donasi' cannot be null in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_donasi.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Donasi.php(61): App\Models\Model_donasi->save_donasi(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Donasi->save()
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Donasi))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-16 02:25:24 --> mysqli_sql_exception: Column 'jumlah_donasi' cannot be null in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_donasi.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Donasi.php(61): App\Models\Model_donasi->save_donasi(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Donasi->save()
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Donasi))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

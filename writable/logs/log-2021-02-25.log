@@ -1,0 +1,12 @@
+CRITICAL - 2021-02-25 18:43:37 --> Request URI segment is out of range: 2
+#0 C:\xampp7\htdocs\popoku\system\HTTP\URI.php(512): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp7\htdocs\popoku\app\Views\user\include\header.php(62): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp7\htdocs\popoku\system\View\View.php(220): include('C:\\xampp7\\htdoc...')
+#3 C:\xampp7\htdocs\popoku\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp7\htdocs\popoku\system\Common.php(1217): CodeIgniter\View\View->render('user/include/he...', Array, true)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Userhome.php(23): view('user/include/he...', Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Userhome->index()
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userhome))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,84 @@
+CRITICAL - 2021-09-17 02:43:58 --> Call to a member function getRandomName() on string
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Produk->save()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-17 02:45:10 --> Call to a member function move() on null
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Produk->save()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-17 02:49:07 --> Call to a member function move() on null
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Produk->save()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-17 02:49:25 --> Call to a member function move() on string
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Produk->save()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-17 02:49:51 --> Call to a member function getRandomName() on string
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Produk->save()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-17 02:50:49 --> Call to a member function move() on string
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Produk->save()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-17 02:51:03 --> Call to a member function move() on string
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Produk->save()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-17 02:55:24 --> Could not move file phpEB7C.tmp to C:\xampp7\htdocs\popoku\writable\/assets/file_upload/produk/ ()
+#0 C:\xampp7\htdocs\popoku\system\HTTP\Files\UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpEB7C.tmp', 'C:\\xampp7\\htdoc...', '')
+#1 C:\xampp7\htdocs\popoku\app\Controllers\Produk.php(64): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp7\\htdoc...', 'C:\\xampp7\\tmp\\p...')
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Produk->save()
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 02:55:38 --> Could not move file php2440.tmp to /assets/file_upload/produk/ ()
+#0 C:\xampp7\htdocs\popoku\system\HTTP\Files\UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php2440.tmp', '/assets/file_up...', '')
+#1 C:\xampp7\htdocs\popoku\app\Controllers\Produk.php(64): CodeIgniter\HTTP\Files\UploadedFile->move('/assets/file_up...', 'C:\\xampp7\\tmp\\p...')
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Produk->save()
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 02:58:23 --> fopen(http://localhost:8080/popoku/assets/file_upload/produk/1631865503_047d7cf3f62d287fe93e.jpg/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp7\\htdoc...', 186, Array)
+#1 C:\xampp7\htdocs\popoku\system\HTTP\Files\UploadedFile.php(186): fopen('http://localhos...', 'x+')
+#2 C:\xampp7\htdocs\popoku\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\xampp7\htdocs\popoku\app\Controllers\Produk.php(63): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...')
+#4 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Produk->save()
+#5 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 02:58:54 --> Use of undefined constant PATH - assumed 'PATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp7\htdocs\popoku\app\Controllers\Produk.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp7\\htdoc...', 69, Array)
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Produk->save()
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-17 03:08:46 -->  route cannot be found while reverse-routing.
+#0 C:\xampp7\htdocs\popoku\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp7\htdocs\popoku\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp7\htdocs\popoku\app\Controllers\Userhome.php(41): redirect('/login')
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Userhome->donasi()
+#4 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userhome))
+#5 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

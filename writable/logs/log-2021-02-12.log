@@ -1,0 +1,1147 @@
+CRITICAL - 2021-02-12 03:58:16 --> Call to undefined function App\Controllers\filter()
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-12 03:58:31 --> Call to undefined function App\Controllers\filters()
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-12 04:32:05 --> You must set the database table to be used with your query.
+#0 C:\xampp7\htdocs\popoku\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp7\htdocs\popoku\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\xampp7\htdocs\popoku\app\Controllers\Artikel.php(24): CodeIgniter\Model->__call('get_artikel_art...', Array)
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Artikel->add()
+#4 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-12 04:37:22 --> Could not move file phpFFF3.tmp to assets/file_upload/artikel/ ()
+#0 C:\xampp7\htdocs\popoku\system\HTTP\Files\UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpFFF3.tmp', 'assets/file_upl...', '')
+#1 C:\xampp7\htdocs\popoku\app\Controllers\Artikel.php(56): CodeIgniter\HTTP\Files\UploadedFile->move('assets/file_upl...', 'headline_artike...')
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Artikel->save()
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#4 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-12 04:56:40 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::delete_files()
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update('10')
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-12 04:58:40 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::delete_files()
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update('10')
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-12 05:04:57 --> Call to undefined function App\Controllers\delete_files()
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update('10')
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-12 07:01:46 --> Too few arguments to function App\Controllers\Kurir::kapasitas(), 0 passed in C:\xampp7\htdocs\popoku\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-12 07:02:29 --> Too few arguments to function App\Controllers\Kurir::edit(), 0 passed in C:\xampp7\htdocs\popoku\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->edit()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-02-12 07:04:12 --> mysqli_sql_exception: Unknown column 'b.nama_user' in 'field list' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `a`.*, `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kurir.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(14): App\Models\Model_kurir->get_kurir()
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->index()
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:04:27 --> mysqli_sql_exception: Unknown column 'b.nama_user' in 'field list' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `a`.*, `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kurir.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(14): App\Models\Model_kurir->get_kurir()
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->index()
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-12 07:45:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-12 07:47:05 --> You must set the database table to be used with your query.
+#0 C:\xampp7\htdocs\popoku\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp7\htdocs\popoku\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(190): CodeIgniter\Model->__call('save_kapasitas', Array)
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#4 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#5 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-02-12 07:48:12 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(185): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-12 07:48:12 --> Return value of CodeIgniter\Database\MySQLi\Result::getNumRows() must be of the type int, null returned
+#0 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(185): CodeIgniter\Database\MySQLi\Result->getNumRows()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-02-12 07:49:08 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(185): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-12 07:49:08 --> Return value of CodeIgniter\Database\MySQLi\Result::getNumRows() must be of the type int, null returned
+#0 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(185): CodeIgniter\Database\MySQLi\Result->getNumRows()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-02-12 07:50:25 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(185): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-12 07:50:25 --> Return value of CodeIgniter\Database\MySQLi\Result::getNumRows() must be of the type int, null returned
+#0 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(185): CodeIgniter\Database\MySQLi\Result->getNumRows()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-02-12 07:50:47 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(185): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:50:47 --> mysqli_sql_exception: Column 'kapasitas_max' cannot be null in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(190): App\Models\Model_kapasitas->save_kapasitas(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-12 07:50:47 --> Too few arguments to function App\Controllers\Kurir::kapasitas(), 1 passed in C:\xampp7\htdocs\popoku\system\CodeIgniter.php on line 936 and exactly 2 expected
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-02-12 07:54:24 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:54:25 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:54:31 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1', 'contoh')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:54:31 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1', 'assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:54:35 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1', 'contoh')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:54:35 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1', 'assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:54:45 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1', 'contoh')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:55:00 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1', 'contoh')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:55:17 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:55:40 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:55:49 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:55:49 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:57:15 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-12 07:57:15 --> Call to undefined method App\Models\Model_user::get_user_nama
+#0 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(28): CodeIgniter\Model->__call('get_user_nama', Array)
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-02-12 07:58:18 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:58:19 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:58:32 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(187): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:58:32 --> mysqli_sql_exception: Column 'kapasitas_max' cannot be null in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(192): App\Models\Model_kapasitas->save_kapasitas(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:58:32 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:58:33 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:59:09 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:59:09 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:59:13 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(187): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 07:59:13 --> mysqli_sql_exception: Column 'kapasitas_max' cannot be null in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(192): App\Models\Model_kapasitas->save_kapasitas(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:01:51 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(188): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:01:51 --> mysqli_sql_exception: Column 'kapasitas_max' cannot be null in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(193): App\Models\Model_kapasitas->save_kapasitas(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:01:51 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:01:52 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:01:59 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(188): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:01:59 --> mysqli_sql_exception: Column 'kapasitas_max' cannot be null in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(193): App\Models\Model_kapasitas->save_kapasitas(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:01:59 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:02:00 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:02:55 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(188): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:02:55 --> mysqli_sql_exception: Column 'kapasitas_max' cannot be null in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(193): App\Models\Model_kapasitas->save_kapasitas(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:02:56 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:02:56 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:03:11 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(188): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:03:11 --> mysqli_sql_exception: Column 'kapasitas_max' cannot be null in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(193): App\Models\Model_kapasitas->save_kapasitas(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:03:48 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(188): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:03:48 --> mysqli_sql_exception: Column 'kapasitas_max' cannot be null in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(193): App\Models\Model_kapasitas->save_kapasitas(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:03:49 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:03:50 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:04:03 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:04:03 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:04:07 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(188): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:04:07 --> mysqli_sql_exception: Column 'kapasitas_max' cannot be null in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(193): App\Models\Model_kapasitas->save_kapasitas(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:04:46 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:04:46 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:04:51 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(188): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:05:00 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:05:00 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:05:01 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:05:01 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:05:43 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(189): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:05:43 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:05:44 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:06:16 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:06:16 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:06:18 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:06:18 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:06:23 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:06:24 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:06:27 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:06:28 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:07:18 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:07:19 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:07:34 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:07:35 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:07:44 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:07:44 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:07:47 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:07:49 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(27): App\Models\Model_kapasitas->get_kapasitas('assets')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('assets', 'images', 'avatars', '1.jpg')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-12 08:09:07 --> mysqli_sql_exception: Unknown column 'a.id_kurir' in 'where clause' in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_kapasitas.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Kurir.php(28): App\Models\Model_kapasitas->get_kapasitas('1')
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-12 08:17:41 --> Class 'App\Controllers\Model_kategori' not found
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->kapasitas('1')
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-12 12:10:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRows()
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Kurir->update_kapasitas('1')
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kurir))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,53 @@
+CRITICAL - 2021-02-13 01:26:32 --> Call to undefined method App\Models\Model_user::get_user
+#0 C:\xampp7\htdocs\popoku\app\Controllers\Pelatihan.php(38): CodeIgniter\Model->__call('get_user', Array)
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Pelatihan->edit('1')
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelatihan))
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 01:26:36 --> Call to undefined method App\Models\Model_user::get_user
+#0 C:\xampp7\htdocs\popoku\app\Controllers\Pelatihan.php(25): CodeIgniter\Model->__call('get_user', Array)
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Pelatihan->add()
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelatihan))
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 01:27:11 --> Call to undefined method App\Models\Model_user::get_user
+#0 C:\xampp7\htdocs\popoku\app\Controllers\Pelatihan.php(25): CodeIgniter\Model->__call('get_user', Array)
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Pelatihan->add()
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelatihan))
+#3 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 06:27:46 --> Call to a member function getClientMimeType() on null
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Pelatihan->save()
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelatihan))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-02-13 06:31:24 --> mysqli_sql_exception: Column 'dilaksanakan' cannot be null in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_pelatihan.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Pelatihan.php(62): App\Models\Model_pelatihan->save_pelatihan(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Pelatihan->save()
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelatihan))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-13 06:32:39 --> mysqli_sql_exception: Column 'dilaksanakan' cannot be null in C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp7\htdocs\popoku\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp7\htdocs\popoku\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp7\htdocs\popoku\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp7\htdocs\popoku\app\Models\Model_pelatihan.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp7\htdocs\popoku\app\Controllers\Pelatihan.php(61): App\Models\Model_pelatihan->save_pelatihan(Array)
+#6 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Pelatihan->save()
+#7 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelatihan))
+#8 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

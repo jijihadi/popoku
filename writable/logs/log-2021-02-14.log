@@ -1,0 +1,6 @@
+CRITICAL - 2021-02-14 07:52:11 --> Call to a member function update_pelatihan() on null
+#0 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(936): App\Controllers\Pelatihan->update('1')
+#1 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelatihan))
+#2 C:\xampp7\htdocs\popoku\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\popoku\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
